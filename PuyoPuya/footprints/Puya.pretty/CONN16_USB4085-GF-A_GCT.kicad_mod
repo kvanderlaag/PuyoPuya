@@ -120,4 +120,9 @@
   (pad "S" thru_hole oval (at -1.349985 4.365 90) (size 1.905 1.1176) (drill 0.0254) (layers "*.Cu" "*.Mask") (tstamp 5db7b08d-4d26-439a-889a-7a56b5dc1fe9))
   (pad "S" thru_hole oval (at 7.299985 0.98 90) (size 2.6162 1.1176) (drill 0.0254) (layers "*.Cu" "*.Mask") (tstamp 381646d7-0c8f-4a57-a6d7-d41d5a9aafc9))
   (pad "S" thru_hole oval (at 7.299985 4.365 90) (size 1.905 1.1176) (drill 0.0254) (layers "*.Cu" "*.Mask") (tstamp c5a837d2-eefd-4316-be98-c95952a0784d))
+  (model "${KIPRJMOD}/packages3d/USB4085-GF-A.stp"
+    (offset (xyz 14.97 -4.05 1.83))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
