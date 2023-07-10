@@ -2252,6 +2252,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 165.735 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0b4ebb9a-d0e5-47ae-928c-7d60fe60857b)
+    (property "Reference" "#PWR021" (at 165.735 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 165.735 76.5255 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 165.735 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 165.735 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e48fe30e-0edc-4130-a72d-163171778944))
+    (instances
+      (project "PuyoPuya"
+        (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 155.575 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1afd8017-ed7f-41f0-8ddd-88178ee8c465)
@@ -2376,6 +2401,57 @@
       (project "PuyoPuya"
         (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
           (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 165.735 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 34613432-5c4d-4dee-a975-cf8f32e63e2f)
+    (property "Reference" "#PWR018" (at 165.735 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 165.735 63.8081 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 165.735 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 165.735 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c1c08e7c-48e5-4b48-8ebe-dc8636a34462))
+    (instances
+      (project "PuyoPuya"
+        (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 175.895 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 365662ba-15a9-458a-9dae-32c3325205fb)
+    (property "Reference" "C5" (at 178.2191 69.2126 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10uF" (at 178.2191 71.1336 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 175.895 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 175.895 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5c764f1b-0885-4691-810b-41633f461cac))
+    (pin "2" (uuid 7bd6fbdf-3dae-4f94-bace-4848cae255d1))
+    (instances
+      (project "PuyoPuya"
+        (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2818,6 +2894,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C_Small") (at 165.735 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9d881e79-6d95-42a0-96d7-4db4eb2e1268)
+    (property "Reference" "C4" (at 168.0591 69.2126 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1uF" (at 168.0591 71.1336 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 165.735 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 165.735 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid df2b3f92-b98c-456e-a470-e96f9b47693e))
+    (pin "2" (uuid 708f3c8b-615b-44ba-a074-65615f86efb5))
+    (instances
+      (project "PuyoPuya"
+        (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
+          (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:LED") (at 186.055 118.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9d8ecb94-16ed-43f7-8936-1feb57dceea7)
@@ -2864,6 +2966,31 @@
       (project "PuyoPuya"
         (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
           (reference "#PWR012") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 175.895 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b365bbba-201a-43dc-bdda-e7e469cf05c9)
+    (property "Reference" "#PWR020" (at 175.895 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 175.895 76.5255 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 175.895 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 175.895 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b288d912-4812-4e64-8190-260d6e11278c))
+    (instances
+      (project "PuyoPuya"
+        (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3016,6 +3143,31 @@
       (project "PuyoPuya"
         (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
           (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 175.895 67.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dd23b43d-773c-4a20-a774-e51085227c82)
+    (property "Reference" "#PWR019" (at 175.895 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 175.895 63.8081 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 175.895 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 175.895 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7009e30f-18e2-4a3a-883b-504d5cb0c269))
+    (instances
+      (project "PuyoPuya"
+        (path "/a56fab31-b869-4c40-8d6b-eff76b19676a"
+          (reference "#PWR019") (unit 1)
         )
       )
     )
