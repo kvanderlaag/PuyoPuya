@@ -1,0 +1,110 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Keegan van der Laag, None, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  D:\sw\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\Projects\PuyoPuya\Example\Blink.uvprojx
+Project File Date:  07/18/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'D:\sw\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+RTE/Device/PY32F003x6/system_py32f0xx.c(131): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+extern int32_t $Super$$main(void);
+               ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(131): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+extern int32_t $Super$$main(void);
+                     ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(131): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+extern int32_t $Super$$main(void);
+                      ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(135): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+int $Sub$$main(void)
+    ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(135): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+int $Sub$$main(void)
+        ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(135): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+int $Sub$$main(void)
+         ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(146): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  $Super$$main();
+  ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(146): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  $Super$$main();
+        ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(146): warning: '$' in identifier [-Wdollar-in-identifier-extension]
+  $Super$$main();
+         ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(135): warning: no previous prototype for function '$Sub$$main' [-Wmissing-prototypes]
+int $Sub$$main(void)
+    ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(135): note: declare 'static' if the function is not intended to be used outside of this translation unit
+int $Sub$$main(void)
+^
+static 
+RTE/Device/PY32F003x6/system_py32f0xx.c(132): warning: no previous extern declaration for non-static variable 'VECT_SRAM_TAB' [-Wmissing-variable-declarations]
+uint32_t VECT_SRAM_TAB[48]__attribute__((section(".ARM.__at_0x20000000")));
+         ^
+RTE/Device/PY32F003x6/system_py32f0xx.c(132): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint32_t VECT_SRAM_TAB[48]__attribute__((section(".ARM.__at_0x20000000")));
+^
+11 warnings generated.
+compiling system_py32f0xx.c...
+linking...
+.\Objects\Blink.axf: Error: L6218E: Undefined symbol $Super$$main (referred from system_py32f0xx.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\Blink.axf" - 1 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Puya
+                https://www.puyasemi.com/Puya.PY32F0xx_DFP.1.1.0.pack
+                Puya.PY32F0xx_DFP.1.1.0
+                Puya PY32F0 Series Device Support
+   * Component: Startup Version: 0.0.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/Keegan/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Keegan/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.1.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Puya::Device:Startup:0.0.1
+      Source file:   Device/Source/ARM/startup_py32f003x6.s
+      Include file:  Device/Include/py32f0xx.h
+      Source file:   Device/Source/system_py32f0xx.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

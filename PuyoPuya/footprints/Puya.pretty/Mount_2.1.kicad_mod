@@ -1,0 +1,13 @@
+(footprint "Mount_2.1" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dc3eb9cb-8f18-47e4-8498-a26fcb869ec1)
+  )
+  (fp_text value "Mount_2.1" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c2b276ce-bbc0-4610-bae5-e2594c104169)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 1.05 1.05) (drill 2.1) (layers "F&B.Cu" "*.Mask") (tstamp 37f6c278-20b8-4fa8-9d79-07bc8d01bc54))
+)
