@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PY32F030")(type "KiCad")(uri "${KIPRJMOD}/PY32F030.pretty")(options "")(descr ""))
+  (lib (name "Puya")(type "KiCad")(uri "D:/Projects/PuyoPuya/PuyoPuya/footprints/Puya.pretty")(options "")(descr ""))
+)
